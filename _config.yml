@@ -1,0 +1,63 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+title: Shaoli Shi
+description: >- # this means to ignore newlines until "baseurl:"
+  Bay is a minimal Jekyll Theme.
+#baseurl: "home/" # the subpath of the site
+url: "https://sl-stone.github.io" # the base hostname & protocol for the site
+og_image: /assets/img/profile-pic.jpg
+google_analytics: "UA-121636368-3"
+
+header:
+  pages:
+    - name: Home
+      slug: /
+    - name: Research
+    - name: CV
+      slug: files/cv-202204.pdf
+    - name: Blog
+    - name: Work
+
+footer:
+  show_powered_by: true
+  contact:
+    - name: Email
+      value: Email
+      link: mailto:shisl1617@mails.jlu.edu.cn
+    - name: WeChat
+#      value: YourWeChatUsername
+      link: "#"
+  follow:
+    - name: GitHub
+      link: http://github.com/SL-Stone
+    - name: LinkedIn
+#      link: http://linkedin.com/in/YourLinkedInUsername
+    - name: Twitter
+      link: http://twitter.com/YourTwitterUsername
+#      username: "@YourTwitterUsername"
+    - name: Facebook
+#      link: http://facebook.com/YourFacebookUsername
+
+# Build settings
+markdown: kramdown
+sass:
+    style: :compressed
+plugins:
+  - jekyll-feed
+
+# Excluded items
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - feed.xml
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Used for defeating caching
+version: 1
